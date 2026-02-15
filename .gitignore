@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+server/.env
+
+# Database
+database.sqlite
+
+# Logs
+*.log
+server/*.log
+server/crash.log
+server/debug*.log
+server/auth_debug.log
+server/final_debug.log
+server/status_debug.log
+server/dbCheck.log
+server/startup.log
+server/test-out.log
+server/audit_log*.log
+server/last_run.log
+server/server_audit.log
+
+# Uploads (user-uploaded files)
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Build outputs
+client/dist/
+client/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+test_routes.md
+
+# JSON outputs
+server/user_list.json
+server/models_list.json
+server/available_models.txt
